@@ -9,22 +9,29 @@
 </head>
 <body>
 	<!-- Navigation Bar -->
-	<header>
-		<nav class="navbar navbar-expand-md bg-secondary navbar-dark">
+	<header class="dHeader">
+		<nav class="text-uppercase navbar navbar-expand-sm bg-secondary navbar-dark">
 			<div class="container-fluid">
-				<a class="navbar-brand" href="index.html">The Monkees</a>
+				<button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navDropDown" aria-controls="#navDropDown" aria-label="Toggle Navigation"><span class="navbar-toggler-icon">
+				</button>
 
-				<div class="navbar-nav">
-					<a class="nav-item nav-link" href="index.html">Home</a>
-					<a class="nav-item nav-link" href="media.html">Media</a>
-					<a class="nav-item nav-link" href="setlist.html">Set List</a>
-					<a class="nav-item nav-link" href="testimonials.html">Testimonials</a>
-					<a class="nav-item nav-link" href="contact.html">Contact</a>
-				</div>
-			</div>
+				<a class="navbar-brand" href="#homePage">Logo</a>
+
+				<section class="collapse navbar-collapse" id="navDropDown">
+					<div class="navbar-nav ml-auto">
+						<a class="nav-item nav-link active" href="index.html">Home</a>
+						<a class="nav-item nav-link" href="media.html">Media</a>
+						<a class="nav-item nav-link" href="setlist.html">Set List</a>
+						<a class="nav-item nav-link" href="testimonials.html">Testimonials</a>
+						<a class="nav-item nav-link" href="contact.html">Contact</a>
+					</div> <!-- navbar-nav -->
+				</section>
+			</div> <!-- container-fluid -->
 		</nav>
 	</header>
 
-
+<!-- Scripts -->
+<script src="assets/js/jquery-min.js"></script>
+<script src="assets/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
