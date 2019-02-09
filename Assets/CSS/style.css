@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower|Josefin+Slab:400,700');
+
 .dHeader {
 	background: url("../images/monkees.jpg");
 	background-repeat:no-repeat;
@@ -7,4 +9,19 @@
 }
 .dHeader .dHeadImage {
 	min-height: 50vh;
+}
+.dNavigation {
+	background-color: #7a4d75;
+	font-family: "Josefin+Slab";
+	font-weight:700;
+
+}
+.dNavigation a img {
+	height:50px;
+	width:70px;
+	}
+.dFooter {
+	background-color: #7a4d75;
+	font-size: 2em;
+
 }
