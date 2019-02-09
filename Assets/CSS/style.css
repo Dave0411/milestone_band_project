@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Indie+Flower|Josefin+Slab:400,700');
+@import  url('https://fonts.googleapis.com/css?family=Exo:400,700|Josefin+Slab:400,700');
 
 /* HEADER AN FOOTER STYLING */
 .dHeader {
@@ -13,7 +13,7 @@
 }
 .dNavigation {
 	background-color: #7a4d75;
-	font-family: "Josefin+Slab";
+	font-family: "Josefin Slab";
 	font-weight:700;
 
 }
@@ -25,4 +25,10 @@
 	background-color: #7a4d75;
 	font-size: 2em;
 
+}
+.titleText {
+	font-family: "Josefin Slab";
+}
+.contentText {
+	font-family: "Exo";
 }
