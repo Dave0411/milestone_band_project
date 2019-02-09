@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Indie+Flower|Josefin+Slab:400,700');
 
+/* HEADER AN FOOTER STYLING */
 .dHeader {
-	background: url("../images/monkees.jpg");
+	background: url("../Images/monkees.jpg");
 	background-repeat:no-repeat;
 	background-size: cover;
 	background-position: center top;
