@@ -32,3 +32,15 @@
 .contentText {
 	font-family: "Exo";
 }
+
+.dListTitle {
+	text-align: center;
+	background-color: #7a4d75;
+	font-family: "Josefin Slab";
+	font-weight: 700;
+	font-size: 1.2em;
+	color: #fff;
+}
+.dListContent {
+	font-family: "Exo";
+}
