@@ -35,7 +35,7 @@
 
 .dListTitle {
 	text-align: center;
-	background-color: #7a4d75;
+	background-color: #af94ac;
 	font-family: "Josefin Slab";
 	font-weight: 700;
 	font-size: 1.2em;
@@ -43,4 +43,15 @@
 }
 .dListContent {
 	font-family: "Exo";
+}
+
+.dForm {
+	width: 20em;
+}
+.dJumbo {
+	background-color: #bca6ba;
+}
+.dPubImages {
+	max-height: 10em;
+}
 }
