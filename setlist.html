@@ -51,12 +51,24 @@
 				<ul class="list-group">
 					<li class=" dListTitle list-group-item">Set 1</li>
 					<li class=" dListContent list-group-item">Good Clean Fun</li>
-					<li class=" dListContent list-group-item">Last Train to Clarksville</li>
+					<li class=" dListContent list-group-item">Last Train to Clarksville
+					<button style="border: 0; background: transparent;" onclick="PlaySound4()"> 
+						<i class="dPlay fas fa-play"></i> </button>
+						<button style="border: 0; background: transparent;" onclick="pauseSound4()"> 
+						<i class="dPlay fas fa-pause"></i> </button></li></li>
 					<li class=" dListContent list-group-item">Sunny Girlfriend</li>
 					<li class=" dListContent list-group-item">Mary, Mary</li>
-					<li class=" dListContent list-group-item">D.W. Washburn *</li>
+					<li class=" dListContent list-group-item">I'm a Believer
+						<button style="border: 0; background: transparent;" onclick="PlaySound2()"> 
+						<i class="dPlay fas fa-play"></i> </button>
+						<button style="border: 0; background: transparent;" onclick="pauseSound2()"> 
+						<i class="dPlay fas fa-pause"></i> </button></li>
 					<li class=" dListContent list-group-item">For Pete's Sake</li>
-					<li class=" dListContent list-group-item">(I'm Not Your) Steppin' Stone *</li>
+					<li class=" dListContent list-group-item">(I'm Not Your) Steppin' Stone 
+						<button style="border: 0; background: transparent;" onclick="PlaySound3()"> 
+						<i class="dPlay fas fa-play"></i> </button>
+						<button style="border: 0; background: transparent;" onclick="pauseSound3()"> 
+						<i class="dPlay fas fa-pause"></i> </button></li>
 					<li class=" dListContent list-group-item">Steam Engine</li>
 					<li class=" dListContent list-group-item">Some of Shelly's Blues</li>
 					<li class=" dListContent list-group-item">The Girl I Knew Somewhere</li>
@@ -80,7 +92,11 @@
 					<li class=" dListContent list-group-item">Auntie's Municipal Court</li>
 					<li class=" dListContent list-group-item">Sweet Young Thing</li>
 					<li class=" dListContent list-group-item">Goin' Down</li>
-					<li class=" dListContent list-group-item">Daydream Believer</li>
+					<li class=" dListContent list-group-item">Daydream Believer 
+						<button style="border: 0; background: transparent;" onclick="PlaySound1()"> 
+						<i class="dPlay fas fa-play"></i> </button>
+						<button style="border: 0; background: transparent;" onclick="pauseSound1()"> 
+						<i class="dPlay fas fa-pause"></i> </button></li>
 					<li class=" dListContent list-group-item">What Am I doin' Hangin' 'round?</li>
 					<li class=" dListContent list-group-item">Pleasant Valley Sunday</li>
 					<li class=" dListContent list-group-item">As We Go Along</li>
@@ -116,5 +132,41 @@
 <!-- Scripts -->
 <script src="Assets/js/jquery-min.js"></script>
 <script src="Assets/js/bootstrap.bundle.min.js"></script>
+<script>
+	var DB = new Audio();
+	var SS = new Audio();
+	var IaB = new Audio();
+	var CV = new Audio();
+	SS.src ="Assets/Audio/SteppingStone.mp3";
+	DB.src = "Assets/Audio/DaydreamBeliever.mp3";
+	IaB.src = "Assets/Audio/ImABeliever.mp3";
+	CV.src = "Assets/Audio/ClarksVille.mp3";
+
+	function PlaySound1() {
+		DB.play();
+	}
+	function PlaySound2() {
+		IaB.play();
+	}
+	function PlaySound3() {
+		SS.play();
+	}
+	function PlaySound4() {
+		CV.play();
+	}
+	function pauseSound1() { 
+    DB.pause(); 
+    }
+    function pauseSound2() { 
+    IaB.pause(); 
+    } 
+     function pauseSound3() { 
+    SS.pause(); 
+    } 
+    function pauseSound4() { 
+    CV.pause(); 
+    } 
+</script>
+
 </body>
 </html>

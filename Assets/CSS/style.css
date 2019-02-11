@@ -17,17 +17,19 @@
 	font-weight:700;
 
 }
-.dNavigation a img {
-	height:50px;
-	width:70px;
-	}
+
 .dFooter {
 	background-color: #7a4d75;
 	font-size: 2em;
 
 }
+.dNavigation a img {
+	height:50px;
+	width:70px;
+	}
 .titleText {
 	font-family: "Josefin Slab";
+	font-weight: 700;
 }
 .contentText {
 	font-family: "Exo";
@@ -53,5 +55,9 @@
 }
 .dPubImages {
 	max-height: 10em;
+
 }
+.dPlay {
+	color:green;
+	text-align: right;
 }
