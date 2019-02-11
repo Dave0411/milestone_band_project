@@ -143,15 +143,27 @@
 	CV.src = "Assets/Audio/Clarksville.mp3";
 
 	function PlaySound1() {
+		pauseSound2();
+		pauseSound3();
+		pauseSound4();
 		DB.play();
 	}
 	function PlaySound2() {
+		pauseSound1();
+		pauseSound3();
+		pauseSound4();
 		IaB.play();
 	}
 	function PlaySound3() {
+		pauseSound1();
+		pauseSound2();
+		pauseSound4();
 		SS.play();
 	}
 	function PlaySound4() {
+		pauseSound1();
+		pauseSound2();
+		pauseSound3();
 		CV.play();
 	}
 	function pauseSound1() { 
@@ -166,6 +178,9 @@
     function pauseSound4() { 
     CV.pause(); 
     } 
+    function stopSound1() {
+    	DB.stop();
+    }
 </script>
 
 </body>
