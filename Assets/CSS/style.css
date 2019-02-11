@@ -15,7 +15,13 @@
 	background-color: #7a4d75;
 	font-family: "Josefin Slab";
 	font-weight:700;
-
+}
+.dNavigation a {
+	color:#fff;
+	transition:.5s;
+}
+.dNavigation a:hover {
+	color:#b7c7c9;
 }
 
 .dFooter {
@@ -24,7 +30,7 @@
 
 }
 .dNavigation a img {
-	height:50px;
+	height:40px;
 	width:70px;
 	}
 .titleText {
@@ -33,6 +39,9 @@
 }
 .contentText {
 	font-family: "Exo";
+}
+.dConHeader .contentText {
+	line-height: .5em;
 }
 
 .dListTitle {
@@ -58,6 +67,20 @@
 
 }
 .dPlay {
-	color:green;
-	text-align: right;
+	color: #66b266;
+}
+.dPause {
+	color: #dcae1d;
+}
+.dContactHead .titleText{
+	
+	font-weight: 700;
+
+}
+.dMediaIcons {
+	color: #fff;
+	transition: .5s .25s ease-in-out;
+}
+.dMediaIcons:hover{
+	color:red;
 }
