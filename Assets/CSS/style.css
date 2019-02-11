@@ -15,12 +15,13 @@
 	background-color: #7a4d75;
 	font-family: "Josefin Slab";
 	font-weight:700;
+	
 }
-.dNavigation a {
+.dHeader a {
 	color:#fff;
-	transition:.5s;
+	transition:.5s ease-in;
 }
-.dNavigation a:hover {
+.dHeader a:hover {
 	color:#b7c7c9;
 }
 
@@ -71,6 +72,9 @@
 }
 .dPause {
 	color: #dcae1d;
+}
+.dStop {
+	color: red;
 }
 .dContactHead .titleText{
 	
