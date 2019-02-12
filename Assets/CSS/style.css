@@ -8,11 +8,14 @@
 	background-position: center top;
 
 }
+body {
+	background-color: #dedede;
+}
 .dHeader .dHeadImage {
 	min-height: 50vh;
 }
 .dNavigation {
-	background-color: #7a4d75;
+	background-color: #931919;
 	font-family: "Josefin Slab";
 	font-weight:700;
 	
@@ -22,18 +25,22 @@
 	transition:.5s ease-in;
 }
 .dHeader a:hover {
-	color:#b7c7c9;
+	color:#329f69;
+}
+.active {
+	font-size: 1.1em;
+	color: #329f69 !important;
 }
 
 .dFooter {
-	background-color: #7a4d75;
+	background-color: #931919;
 	font-size: 2em;
 
 }
 .dNavigation a img {
 	height:40px;
 	width:70px;
-	}
+}
 .titleText {
 	font-family: "Josefin Slab";
 	font-weight: 700;
@@ -47,7 +54,7 @@
 
 .dListTitle {
 	text-align: center;
-	background-color: #af94ac;
+	background-color: #c37f7f;
 	font-family: "Josefin Slab";
 	font-weight: 700;
 	font-size: 1.2em;
@@ -61,7 +68,7 @@
 	width: 20em;
 }
 .dJumbo {
-	background-color: #bca6ba;
+	background-color: #c37f7f;
 }
 .dPubImages {
 	max-height: 10em;
@@ -82,9 +89,9 @@
 
 }
 .dMediaIcons {
-	color: #fff;
+	color: #dedede;
 	transition: .5s .25s ease-in-out;
 }
 .dMediaIcons:hover{
-	color:red;
+	color: #329f69;
 }
